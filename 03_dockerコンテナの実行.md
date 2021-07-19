@@ -56,4 +56,13 @@
 5. コンテナを実行する<br>
    > `docker run [イメージ]`
 
+# DockerHubへのPUSH
+- DockerHubへのログイン
+  > `docker login`<br>
+  > 明示的にログイン先の指定がない場合は、DockerHubとなる
+
+
+- DockerHubへのPUSH
+  > `docker push [DockerID]/[イメージ名]:[タグ名]`
+
   
